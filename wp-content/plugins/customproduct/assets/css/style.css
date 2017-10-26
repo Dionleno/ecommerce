@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/09/2017, 17:15:00
+    Author     : dionleno
+*/
+
+.boxtempo{float:left;width:100%;}
+ul.dias-tempo{list-style:none;margin:0;padding:5px 0;text-align:center;background:#FFF;}
+.dias-tempo li{width:30%;display:inline-block;border-left:0px solid #f1f1f1;}
+.list-tempo .wd-min , .list-tempo .wd-max{padding:5px 0;color:#666;}
+.list-tempo .wd-min span{color:#d21d1d;}
+.list-tempo .wd-max span{color:#1761a5;}
+
+.dias-tempo li .list-tempo{text-align:center;}
+.list-tempo .diviroria{width:100%;height:1px;background:#f1f1f1;}
+
+.wddiaimage{max-width:300px;width: 100%;background:url('../image/dia.jpg') no-repeat;padding:0;background-size:cover;display: inline-block;}
+.wddiabgcolor{border:1px solid #f1f1f1;background-color: rgba(253,252,252,0.3);}
+.wdnoiteimage{max-width:300px;width: 100%;background:url('../image/noite.jpg') no-repeat;padding:0;background-size:cover;display: inline-block;}
+.wdnoitebgcolor{border:1px solid #f1f1f1;background-color: rgba(0,0,0,0.3);}
+.autocomplete{position: absolute;background: #ccc;max-height: 200px;overflow-y: scroll;width: 100%;z-index: 200;}
+.autocomplete li{
+    cursor: pointer;
+}

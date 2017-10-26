@@ -1,0 +1,10 @@
+
+@font-face {
+	font-family: 'VAG Rounded';
+	src: url('../fonts/vag/VAGRounded-Bold.eot');
+	src: url('../fonts/vag/VAGRounded-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/vag/VAGRounded-Bold.woff') format('woff'),
+		url('../fonts/vag/VAGRounded-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}

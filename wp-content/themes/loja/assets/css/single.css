@@ -1,0 +1,15 @@
+.banner-produto-top{
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.banner-produto-meddle{
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.list-group-item{border-left: 0;border-right: 0;border-radius: 0 !important;}

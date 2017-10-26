@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/10/2017, 17:20:45
+    Author     : dionleno
+*/
+
+body{background: url('../image/banner_home.jpg');background-size: cover; }
+.login-box{background: url('../image/white_px.png');height: auto;width: 320px;padding:20px 40px;margin-left: 60px; }
+.fonte_laranja{color: #f47920;font-weight: bold;font-family: 'VAG Rounded';}
+
+.btn-verde{color:#fff;background-color:#00a79e;border-color:#00a79e;font-weight: bold;font-family: 'VAG Rounded';}
+.btn-verde.focus,.btn-verde:focus{color:#fff;background-color:#00a79e;border-color:#00a79e}
+.btn-verde:hover{color:#fff;background-color:#00a79e;border-color:#00a79e}
+.btn-verde.active,.btn-verde:active,.open>.dropdown-toggle.btn-verde{color:#fff;background-color:#00a79e;border-color:#00a79e}
+.btn-verde.active.focus,.btn-verde.active:focus,.btn-verde.active:hover,.btn-verde:active.focus,.btn-verde:active:focus,.btn-verde:active:hover,.open>.dropdown-toggle.btn-verde.focus,.open>.dropdown-toggle.btn-verde:focus,.open>.dropdown-toggle.btn-verde:hover{color:#fff;background-color:#00a79e;border-color:#00a79e;}    
+
+.btn-default{color:#fff;background-color:#f47920;border-color:#f47920;font-weight: bold;font-family: 'VAG Rounded';}
+.btn-default.focus,.btn-default:focus{color:#fff;background-color:#f47920;border-color:#f47920}
+.btn-default:hover{color:#fff;background-color:#f47920;border-color:#f47920}
+.btn-default.active,.btn-default:active,.open>.dropdown-toggle.btn-default{color:#fff;background-color:#f47920;border-color:#f47920}
+.btn-default.active.focus,.btn-default.active:focus,.btn-default.active:hover,.btn-default:active.focus,.btn-default:active:focus,.btn-default:active:hover,.open>.dropdown-toggle.btn-default.focus,.open>.dropdown-toggle.btn-default:focus,.open>.dropdown-toggle.btn-default:hover{color:#fff;background-color:#f47920;border-color:#f47920;}
+
+
+/*register*/
+.register-box{background: url('../image/white_px.png');height: auto;padding:20px 40px;}
+.register-box label{font-weight: normal !important;}
+
+/*css mobile*/
+@media screen and (max-width: 767px) {   
+  .login-box{background: url('../image/white_px.png');height: auto;width: 320px;padding:20px 40px;margin:0 auto; }
+  
+}
+
+@media screen and (max-width: 340px) {   
+  .login-box{background: url('../image/white_px.png');height: auto;width: 90%;padding:20px 20px;margin:0 auto; }
+  .register-box{background: url('../image/white_px.png');height: auto;padding:20px 10px;}
+  .items-register{text-align: center;margin:10px auto;}
+}

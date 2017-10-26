@@ -1,0 +1,20 @@
+2017-10-23T10:22:38+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2017-10-23T11:28:17+00:00 CRITICAL Call to a member function get_price_html() on null
+
+2017-10-23T12:39:19+00:00 CRITICAL Call to a member function get_rating_count() on null
+
+2017-10-23T17:11:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2017-10-24T10:28:25+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2017-10-25T14:49:18+00:00 CRITICAL Call to a member function get_checkout_fields() on null
+
+2017-10-25T16:38:00+00:00 CRITICAL Call to a member function get_image() on null
+
+2017-10-25T16:38:04+00:00 CRITICAL Call to a member function get_image() on null
+
+2017-10-25T16:38:39+00:00 CRITICAL Call to a member function get_image() on null
+
+2017-10-25T16:38:41+00:00 CRITICAL Call to a member function get_image() on null
+

@@ -1,0 +1,141 @@
+.banner-fixo{
+     display: table;
+    width: 100%;      
+    padding: 0px 0 30px;
+}
+.destaque_banner{
+    display: table-cell;    
+    
+    vertical-align: top;
+    height: 100%;
+    float: initial;
+}
+
+.destaque_banner h2{
+    font-family: 'VAG Rounded';
+}
+.titulos-thema{font-family: 'VAG Rounded';padding: 0;margin: 0;}
+.info_banner{    
+    display: table-cell;    
+    background-color: #fafafa;    
+    vertical-align: top;
+    height: 100%;
+    float: initial;
+    padding: 45px 35px;
+}
+
+.info_banner h1{font-family: 'VAG Rounded';}
+.info_banner h1, .text_price{color: #f47920;margin-top: 0;padding-top: 0;font-weight: bold;}
+
+
+/*BANNER HOME*/
+.info_banner-home{ display: table-cell;background-color: #f47920;vertical-align: top;height: 100%;float: initial;padding: 45px 35px;color: #FFF;}
+.info_banner-home h1{font-family: 'VAG Rounded';}
+.info_banner-home h1,.info_banner-home .text_price{color:#FFF;margin-top: 0;padding-top: 0;font-weight: bold;}
+.info_banner-home .box-quantidade label, .info_banner-home .value_price{color: #FFF;}
+
+.itemslide p{font-size: 16px;}
+.value_price{font-size: 22px;}
+.value_price_simple{font-size: 16px;}
+.box-quantidade{margin: 15px 0 10px; width: 90px;}
+.form-quantidade{ 
+    height: 39px;
+    width: 90px;
+    }
+.product_simple .info_banner{    
+    display: table-cell;    
+    background-color: #fafafa;    
+    vertical-align: top;
+    height: 100%;
+    float: initial;
+    padding: 15px;
+}
+.product_simple .box-quantidade{margin: 10px 0 10px; width: 90px;}
+/*Estilos*/
+h2.titulo_laranja{color: #f47920;font-weight: bold;font-family: 'VAG Rounded';}
+h3.titulo_laranja{color: #f47920;font-weight: bold;font-family: 'VAG Rounded';}
+.sectionitem{padding: 30px 0;}
+.item-produto{padding: 5px;}
+.table td{border-top:0 !important;}
+
+.panel {border-radius: 0;}
+.panel-default .media-heading{font-size: 14px;}
+.panel-default .media a{padding: 0;}
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: #FFF;
+    border-color: #ddd;
+    border: 0;
+    border-bottom-width: 0px;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+    border-bottom: 1px solid #ddd;
+}
+.panel-heading {
+    padding: 0px 15px;
+    border-bottom: 1px solid transparent;
+        border-bottom-color: transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-footer{
+    background: #FFF;
+    border-top: 0px;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;   
+}
+.thumbnail .caption {
+    color: #555;
+}
+label {    
+    font-weight: normal;
+    color: #555;
+}
+#footer label { color: #FFF;}
+.btn-default{color:#fff;background-color:#f47920;border-color:#f47920;font-weight: bold;}
+.btn-default.focus,.btn-default:focus{color:#fff;background-color:#f47920;border-color:#f47920}
+.btn-default:hover{color:#fff;background-color:#f47920;border-color:#f47920}
+.btn-default.active,.btn-default:active,.open>.dropdown-toggle.btn-default{color:#fff;background-color:#f47920;border-color:#f47920}
+.btn-default.active.focus,.btn-default.active:focus,.btn-default.active:hover,.btn-default:active.focus,.btn-default:active:focus,.btn-default:active:hover,.open>.dropdown-toggle.btn-default.focus,.open>.dropdown-toggle.btn-default:focus,.open>.dropdown-toggle.btn-default:hover{color:#fff;background-color:#f47920;border-color:#f47920;}
+
+.btn-danger{color:#fff;background-color:#f47920;border-color:#FFF;font-weight: bold;}
+.btn-danger.focus,.btn-danger:focus{color:#fff;background-color:#f47920;border-color:#FFF}
+.btn-danger:hover{color:#fff;background-color:#f47920;border-color:#FFF}
+.btn-danger.active,.btn-danger:active,.open>.dropdown-toggle.btn-danger{color:#fff;background-color:#f47920;border-color:#FFF}
+.btn-danger.active.focus,.btn-danger.active:focus,.btn-danger.active:hover,.btn-danger:active.focus,.btn-danger:active:focus,.btn-danger:active:hover,.open>.dropdown-toggle.btn-danger.focus,.open>.dropdown-toggle.btn-danger:focus,.open>.dropdown-toggle.btn-danger:hover{color:#fff;background-color:#f47920;border-color:#FFF;}    
+
+
+
+/*Destaque*/
+.produtos-destaques{background: #FFF;}    
+.thumbnail{border: 0px;background: transparent;margin-bottom: 0;}
+.thumbnail a{text-decoration: none;color: #555555;}
+.thumbnail h3{color: #f47920 !important;font-size: 18px;font-weight: bold;margin: 10px 0 10px;font-family: 'VAG Rounded';}
+.caption, .value_price{
+    color: #555555;
+}
+/*Listar produtos*/
+
+
+/*css mobile*/
+@media screen and (max-width: 767px) {   
+  .banner-fixo{
+     display: block;
+    width: 100%;      
+    padding: 0px 0 0px;
+}
+.destaque_banner {
+    display: block;
+    height: 300px;
+    float: left;
+    background-position: bottom center !important;
+}
+
+}
+
+
+/*carrinho*/
+.media{border-bottom: 1px solid #ddd;padding: 10px;}
